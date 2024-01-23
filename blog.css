@@ -33,6 +33,10 @@ main{
     margin: auto;
     font-family: "Figtree", sans-serif;
     box-shadow: 5px 5px;
+    transition: transform 0.5s;
+}
+main:hover{
+    box-shadow: 10px 10px;
 }
 .header{
     width: auto;
