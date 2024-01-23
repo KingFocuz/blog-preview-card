@@ -19,7 +19,7 @@ body{
     height: 100%;
     width: 100%;
 }
-.container{
+main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -74,6 +74,10 @@ h1{
     font-size: 18px;
     font-weight: 900;
 }
+h1:hover{
+    color: var(--yellow-color);
+    cursor: pointer;
+}
 .para{
     font-size: 12px;
     line-height: 18px;
@@ -98,7 +102,7 @@ h1{
     font-weight: 900;
 }
 @media screen  and (max-width: 375px){
-    .container{
+    main{
         width: 260px;
         height: 400px;
         margin: auto;
